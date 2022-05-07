@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    height: 860px;
+    background-image:url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+.nav-link
+{
+color:#fff; 
+}
+
+.nav-link{
+   margin: 0 5px;
+    transition: color .5s;
+}
+ .nav-link:hover{
+     color: #09c;
+ }
+ .dropdown:hover .dropdown-menu{
+     display: block;
+ }
+ .home-content{
+   
+    flex-direction: column;
+ }
+ .home button{
+    padding: 15px 20px;
+    color: #fff;
+    transition: color .5s;
+}
+.home .btn{
+    display: flex;
+}
+.home .btn1{
+ border: none;
+background-color: #8e7754;
+border: 2px solid #8e7754;
+outline: none;
+margin: 0 10px;
+border-radius: 5px;
+  transition:background-color .5s;
+}
+.home .btn2{
+background: none;
+border: 1px solid #fff;
+background-color: transparent;
+border-radius: 5px;
+transition:background-color .5s;
+}
+button:hover{
+  color: black;
+ }
+ .btn1:hover{
+     background-color: #fff;
+ }
+ .btn2:hover{
+    background-color: #fff;
+}
+.up-down{
+    width: 30px;
+    height: 50px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    position: absolute;
+    bottom: 50px;
+    border-radius: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.up-down .bollet{
+    position: absolute;
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    animation: identifier 1s infinite alternate;
+   
+}
+@keyframes identifier {
+    0%{
+        bottom: 30px;
+    }
+    30%{
+        bottom: 20px;
+    }
+    50%{
+        bottom: 10px;
+    }
+    100%{
+        bottom: 30px;
+    }
+}
+
+/* about */
+
+  .about
+  {
+      padding: 80px 0;
+  } 
+  .about-image img
+  {
+      width: 100%;
+  }
+.about-content h5{
+    font-size: 25px;
+ }
+    .about-content p{
+        color:#999;
+        line-height: 1.7;
+    }
+    .about-content ul
+     {
+        list-style-type: none;
+       }
+       .about-content ul li{
+padding: 10px 0;
+font-size: 20px;
+       }
+    .about-content ul li i{
+        color: #09c;
+        padding: 5px 7px;
+        margin-right: 5px;
+        border: 1px solid #09c;
+        border-radius: 50%;
+    }
+    
+/* location */
+
+.location{
+    padding: 80px 0;
+    background-color: rgb(233, 227, 227);
+}
+.location-image img{
+    width: 100%;
+}
+.location-content h4{
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.location-content p{
+    line-height: 2;
+    color: #999;
+}
+
+/* Baking */
+
+.Baking{
+    padding: 100px 0;
+  }
+.Baking h3{
+font-size: 20px;
+}
+.Baking p{
+color: #999;
+}
+.Baking-content h5{
+    font-size: 18px;
+}
+.Baking-content p{
+    color: #999;
+    line-height: 1.7; 
+}
+
+/* contact */
+
+.contact{
+    padding: 100px 0;
+}
+.contact-image img{
+        width: 100%;
+    }
+   .contact-desc ul{
+       list-style-type: none;
+   }
+   .contact-desc ul li  {
+     padding-bottom: 15px;
+     margin: 0;
+   }
+   .contact-desc ul li i{
+       color: #09c;
+       padding: 7px;
+       margin-right: 8px;
+       border: 2px solid #09c;
+       border-radius: 50%;
+   }
+   .contact-desc h4{
+       font-size: 25px;
+   } 
+   .contact-desc p{
+       color: rgb(129, 127, 127);
+       line-height: 1.7;  
+   } 
+   .footer{
+    background-color: rgb(12, 3, 3);
+    padding: 80px 0;
+ }
+ .footer-content hr{
+     width: 190px;
+     height: 1px;
+     background-color: rgb(173, 170, 170);
+     border: none;
+ }
+ 
+ .footer-info h6{
+     color:#fff;
+     font-size: 18px;
+    
+ }
+ .footer-info p{ 
+     color:rgb(129, 127, 127);
+ }
+ .footer-info .parag{
+     line-height: 2;
+ }
+
+ /* footer-icon */
+
+ .footer-icon{
+     text-align: center;
+     background-color: black;
+  padding: 30px;
+ }
+ .footer-icon p{
+     color: #fff;
+     padding: 10px;
+ } 
+ .footer-icon{
+    text-align: center;
+}
+.footer-icon .icons {
+    
+}
+.footer-icon .icons i{
+ color: #fff;
+   margin: 0 10px;
+   transition: color .5s;
+}
+.footer-icon .icons i:hover{
+    color: #09c;
+}
+.footer-icon p{
+    color: #fff;
+    padding: 10px;
+} 
+
